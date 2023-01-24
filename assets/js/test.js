@@ -2,10 +2,10 @@ jQuery(function($) {
     // Header
     (function () {
         var $html = $('html');
-        var $header = $(".js-header");
+        var $header = $(".slideshow");
         var $pos = $header.find('> *').first()
         for (var i = 0; i < 10; i++) {
-        var $replace = $('<header style="font-size: 100px;">hi</header>').insertAfter($header);
+            $('<p style="font-size: 100px;">hi</p>').insertAfter($header);
         }
     })();
 });

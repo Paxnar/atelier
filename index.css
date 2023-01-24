@@ -3,13 +3,7 @@ font-family: "Montserrat", Arial, -apple-system-body, sans-serif;}
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
     padding: 0;
-    border: 0;
-    vertical-align: baseline;
 }
 a {
 text-decoration: none;}
@@ -44,9 +38,9 @@ z-index: 2;
 position: relative;
 }
 
-@media only screen and (max-width: 1081px) {
+@media only screen and (max-height: 1081px) {
 .header-container {
-/*height: 100px;*/
+height: 100px;
 }
 }
 
@@ -69,7 +63,7 @@ vertical-align: top;
 }
 
 .header-text-buttons {
-font-size: 25px;
+font-size: 2.7vw;
 color: white;
 word-spacing: -2px;
 }
@@ -139,4 +133,19 @@ font-size: 5vh;
 margin-bottom:1vh;
 }
 }
+
+.slideshow {
+height:574px;
+overflow: hidden;
+position: relative;
+margin-left: 0vw;}
+
+.slideshow, .slideshow-images{
+align-items: center;
+display:flex;
+flex-direction: row;}
+
+.slideshow-image{
+width: 100vw;}
+
 
