@@ -135,10 +135,16 @@ margin-bottom:1vh;
 }
 
 .slideshow {
-height:574px;
+height:420px;
 overflow: hidden;
 position: relative;
-margin-left: 0vw;}
+margin-left: 0vw;
+transition: margin-left .5s;}
+
+@media only screen and (max-height: 1081px)
+.slideshow {
+    height: 300px;
+}
 
 .slideshow, .slideshow-images{
 align-items: center;

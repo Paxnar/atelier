@@ -50,6 +50,6 @@ jQuery(function($) {
         var $images = $(".slideshow-image");
         var $slideshow = $('.slideshow');
         i = 0;
-        setInterval(changeslides, 2000);
+        setInterval(changeslides, 6500);
     })();
 });
