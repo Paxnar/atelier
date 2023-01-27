@@ -14,7 +14,7 @@ jQuery(function($) {
         });
     })();
 
-    // Header
+    // Заголовок
     (function () {
         var $html = $('html');
         var $header = $(".js-header");
@@ -37,19 +37,5 @@ jQuery(function($) {
             e.preventDefault();
             $html.toggleClass('nav-open');
         });
-    })();
-
-    (function () {
-        function changeslides() {
-
-        i++;
-        if (i >= $images.length) {
-        i = 0;}
-        $slideshow.css('margin-left', (i * -100).toString() + 'vw');
-        }
-        var $images = $(".slideshow-image");
-        var $slideshow = $('.slideshow');
-        i = 0;
-        setInterval(changeslides, 6500);
     })();
 });
