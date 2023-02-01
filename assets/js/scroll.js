@@ -33,8 +33,7 @@ jQuery(function($) {
 
         $(window).scroll(headerFixed);
         headerFixed();
-        $('.header-side-menu').click(function (e) {
-            e.preventDefault();
+        $('.header-side-menu').click(function () {
             $html.toggleClass('nav-open');
         });
     })();
