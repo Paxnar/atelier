@@ -197,7 +197,10 @@ font-size: 25px;
 padding: 0 48px;
 }
 
+.about-text-p {
+margin: 14px 0;
+}
+
 .about-list {
 padding-left: 40px;
-margin-bottom: 28px;
 }
