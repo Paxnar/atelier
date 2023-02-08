@@ -1,0 +1,56 @@
+.services {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 0 32px;
+margin: 20px 0 20px;
+}
+
+.service {
+/*height: 190px;*/
+margin: 0 0px 20px;
+width: 85vw;
+display: flex;
+align-items: flex-end;
+}
+
+@media (min-width: 835px) {
+.service {
+width: 45vw;
+}
+}
+
+@media (min-width: 990px) {
+.service {
+width: 30vw;
+}
+}
+
+.service img {
+width: 100%;
+}
+
+.service span {
+background: #BA0000ab;
+color: #fff;
+position: absolute;
+font-weight: 500;
+padding: 3px 10px;
+font-size: 33px;
+max-width: 48vw;
+margin: 0px 0px 1% 1%;
+}
+
+@media (min-width: 835px) {
+.service span {
+font-size: 24px;
+max-width: 40vw;
+}
+}
+
+@media (min-width: 990px) {
+.service span {
+font-size: 20px;
+max-width: 26vw;
+}
+}
