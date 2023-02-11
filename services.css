@@ -7,7 +7,7 @@ margin: 20px 0 20px;
 }
 
 .service {
-/*height: 190px;*/
+height: 190px;
 margin: 0 0px 20px;
 width: 85vw;
 display: flex;
@@ -28,6 +28,8 @@ width: 30vw;
 
 .service img {
 width: 100%;
+height:100%;
+object-fit:cover;
 }
 
 .service span {
