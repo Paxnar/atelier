@@ -14,7 +14,7 @@ display: flex;
 align-items: flex-end;
 }
 
-@media (min-width: 835px) {
+@media (min-width: 640px) {
 .service {
 width: 45vw;
 }
@@ -43,7 +43,7 @@ max-width: 48vw;
 margin: 0px 0px 1% 1%;
 }
 
-@media (min-width: 835px) {
+@media (min-width: 640px) {
 .service span {
 font-size: 24px;
 max-width: 40vw;
