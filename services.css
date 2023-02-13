@@ -14,7 +14,7 @@ display: flex;
 align-items: flex-end;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 835px) {
 .service {
 width: 45vw;
 }
@@ -38,12 +38,12 @@ color: #fff;
 position: absolute;
 font-weight: 500;
 padding: 3px 10px;
-font-size: 33px;
+font-size: 20px;
 max-width: 48vw;
 margin: 0px 0px 1% 1%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 835px) {
 .service span {
 font-size: 24px;
 max-width: 40vw;
