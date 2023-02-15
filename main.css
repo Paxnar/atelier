@@ -76,7 +76,7 @@ display: none;
 .header-side-menu {
 width: 37px;
     height: 37px;
-    background: url(assets/img/menu.png);
+    background: url(assets/img/menu.png) no-repeat;
     background-size: 100%;
     cursor: pointer;
     }
@@ -179,6 +179,7 @@ width: 100vw;}
 display: flex;
 flex-direction: row;
 justify-content: center;
+margin-bottom: 15px;
 }
 
 .about-us {
@@ -192,8 +193,9 @@ text-align: center;
 }
 
 .about-us-text {
-font-size: 25px;
+font-size: 30px;
 padding: 0 48px;
+margin-top: 20px;
 }
 
 .about-text-p {
