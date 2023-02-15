@@ -82,7 +82,7 @@ width: 37px;
     }
 
 .nav-open .header-side-menu {
-    background: url(assets/img/close.png);
+    background: url(assets/img/close.png) no-repeat;
     background-size: 100%;
     }
 
@@ -106,6 +106,13 @@ width: 70%;
 margin-left: 30%;
 }
 }
+
+@media only screen and (max-width: 544px) {
+.header-nav {
+width: 85%;
+margin-left: 15%;
+}
+}
 .nav-open .header-nav {
     opacity: 1;
     transform: translateX(0);
@@ -119,6 +126,12 @@ color: white;
 @media only screen and (max-height: 870px) {
 .header-nav-link{
 font-size: 5vh;
+}
+}
+
+@media only screen and (max-width: 413px) {
+.header-nav-link{
+font-size: 10vw;
 }
 }
 .header-nav-list {
